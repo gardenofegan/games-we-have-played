@@ -8,7 +8,12 @@ const numberOfLatestPostsToShow = 3;
 ---
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h1>Games We Have Played</h1>
+
+<p>
+	Board Games, thrift stores, animated gifs, and the occasional 3D model.  Hope you enjoy!
+	<br/><br/>
+</p>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}

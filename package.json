@@ -1,7 +1,7 @@
 {
-	"name": "eleventy-base-blog",
+	"name": "games-we-have-played",
 	"version": "9.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"description": "Utilizing Eleventy to build a blog about games we have played.",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
@@ -47,6 +47,8 @@
 		"zod-validation-error": "^3.4.0"
 	},
 	"dependencies": {
-		"@zachleat/heading-anchors": "^1.0.3"
+		"@google/model-viewer": "^4.1.0",
+		"@zachleat/heading-anchors": "^1.0.3",
+		"markdown-it": "^14.1.0"
 	}
 }

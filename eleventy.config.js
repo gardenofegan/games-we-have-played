@@ -3,11 +3,13 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-
 import pluginFilters from "./_config/filters.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
+	// Enable HTML in markdown-it for custom elements like <model-viewer>
+	const markdownIt = (await import('markdown-it')).default;
+	eleventyConfig.setLibrary("md", markdownIt({ html: true }));
 	// Drafts, see also _data/eleventyDataSchema.js
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
@@ -21,7 +23,14 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy({
 			"./public/": "/"
 		})
-		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
+		.addPassthroughCopy({
+			"node_modules/@google/model-viewer/dist/model-viewer.min.js":
+			  "js-modules/model-viewer.min.js",
+		  })
+		.addPassthroughCopy({
+			"content/blog/": "blog/"
+		});
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
@@ -60,23 +69,19 @@ export default async function(eleventyConfig) {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed/feed.xml",
 		stylesheet: "pretty-atom-feed.xsl",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed",
-				order: 4
-			}
-		},
 		collection: {
 			name: "posts",
 			limit: 10,
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "Games We Have Played",
+			subtitle: "A blog about games we have played, with simple reviews and gifs to help illustrate the experience.",
+			base: "https://gameswehaveplayed.com",
 			author: {
-				name: "Your Name"
+				name: "Justin Egan",
+				email: "justin@gameswehaveplayed.com",
+				url: "https://gameswehaveplayed.com"
 			}
 		}
 	});
