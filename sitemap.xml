@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/blog/firstpost/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/blog/firstpost/</loc>
 		<lastmod>2018-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/blog/secondpost/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/blog/secondpost/</loc>
 		<lastmod>2018-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/blog/thirdpost/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/blog/thirdpost/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/blog/funny-bones/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/blog/funny-bones/</loc>
 		<lastmod>2025-04-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/about/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/about/</loc>
 		<lastmod>2025-04-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/blog/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/blog/</loc>
 		<lastmod>2025-04-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/</loc>
 		<lastmod>2025-04-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/tags/</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/tags/</loc>
 		<lastmod>2025-04-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://gameswehaveplayed.com/eleventy-base-blog/feed/feed.xml</loc>
+		<loc>https://gameswehaveplayed.com/games-we-have-played/feed/feed.xml</loc>
 		<lastmod>2025-04-25</lastmod>
 	</url>
 </urlset>
