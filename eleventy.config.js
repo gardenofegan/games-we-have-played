@@ -24,6 +24,7 @@ export default async function(eleventyConfig) {
 			"./public/": "/"
 		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
+		.addPassthroughCopy("CNAME")
 		.addPassthroughCopy({
 			"node_modules/@google/model-viewer/dist/model-viewer.min.js":
 			  "js-modules/model-viewer.min.js",
