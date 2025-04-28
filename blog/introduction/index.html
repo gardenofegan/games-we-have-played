@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Games We Have Played</title>
-		<meta name="description" content="A blog about games we have played, with simple reviews and gifs to help illustrate the experience.">
+		<title>Introduction</title>
+		<meta name="description" content="A background on the blog, and reasons for typing things on the internets.">
 		<link rel="alternate" href="/games-we-have-played/feed/feed.xml" type="application/atom+xml" title="Games We Have Played">
 		
 		
@@ -376,6 +376,174 @@ header {
 		flex: 1 0 100%;
 		text-align: left;
 	}
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 		
@@ -398,27 +566,33 @@ header {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="tags">Tags</h1>
 
-<ul>
 
-	
-	<li><a href="/games-we-have-played/tags/3d-scans/" class="post-tag">3d scans</a></li>
+<h1 id="introduction">Introduction</h1>
 
-	
-	<li><a href="/games-we-have-played/tags/board-games/" class="post-tag">board games</a></li>
-
-	
-	<li><a href="/games-we-have-played/tags/intro/" class="post-tag">intro</a></li>
-
-	
-	<li><a href="/games-we-have-played/tags/party-games/" class="post-tag">party games</a></li>
-
-	
+<ul class="post-metadata">
+	<li><time datetime="2025-04-27">27 April 2025</time></li>
+	<li><a href="/games-we-have-played/tags/intro/" class="post-tag">intro</a>, </li>
+	<li><a href="/games-we-have-played/tags/3d-scans/" class="post-tag">3d scans</a>, </li>
+	<li><a href="/games-we-have-played/tags/board-games/" class="post-tag">board games</a>, </li>
 	<li><a href="/games-we-have-played/tags/thrift-store-find/" class="post-tag">thrift store find</a></li>
-
 </ul>
 
+<p>Howdy folks, my name is Justin and I like board games.  Buying board games at thrift stores, is a 2-for-1 hobby of mine.  Playing the board games is great and all, but I just might like the thrill of the hunt of buying another board game from a thrift store for a deal even better.  I have too many games and not enough plays.  So what shall we do?</p>
+<p>This blog is a personal effort to start playing more of those board games regularly, and sharing my thoughts as well.  Why start a written blog?  Well, I listen to the occasional podcast about board games, but I very much struggle watching video reviews.  Too long, didn't watch I guess.  I do, however, like the text reviews on BGG, so this will be in that vein.  I'll likely also post these reviews there as well.</p>
+<p>Adding to the plain text, as I realize that will be a hair boring, is 3D scanning via Apple's Reality Composer.  It seems that can be a fun way to show the exact game I have, and it's state as bought, as some of the boxes can be beat up, torn, etc as you might imagine from the thrift store.</p>
+<p>Finally, in addition to the text and 3D scans, animated gifs are another nice way to balance that need to see components in action, but not needing to be a full video, so you'll see those too.</p>
+<p>Recap: Board games, thrift store, 3D scans, and animated gifs.  That is what you can expect, I hope you enjoy!</p>
+<p>Without further ado, welcome to <strong>Games We Have Played</strong>.</p>
+<div class="center-image">
+    <picture><source type="image/webp" srcset="/games-we-have-played/blog/introduction/RJPYZV9eX8-282.webp 282w"><img loading="lazy" decoding="async" src="/games-we-have-played/blog/introduction/RJPYZV9eX8-282.gif" class="gif-viewer" alt="A gif showing my board game room" width="282" height="500"></picture>
+</div>
+<p>Here is the basement game room collection in all it's glory.  This is about the most organized it has been in quite a while.  Enjoy the (mostly) lack of games on the floor and generally shelved.</p>
+<p>Follow along as I share my adventures on getting games to the table, scanning them in 3D, animating some gifs and writing some light reviews.</p>
+<p>Enjoy!</p>
+
+<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/games-we-have-played/blog/funny-bones/">Funny Bones</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -428,7 +602,7 @@ header {
 			<p class="footer-right"><a href="/games-we-have-played/feed/feed.xml">RSS</a></p>
 		</footer>
 
-		<!-- This page `/tags/` was built on 2025-04-28T15:14:53.190Z -->
+		<!-- This page `/blog/introduction/` was built on 2025-04-28T15:14:53.189Z -->
 		<script type="module" src="/games-we-have-played/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
