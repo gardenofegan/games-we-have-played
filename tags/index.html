@@ -252,11 +252,10 @@ header {
 }
 .home-link {
 	flex-grow: 1;
-	font-size: 1em; /* 16px /16 */
+	font-size: 1.5em; /* 16px /16 */
 	font-weight: 700;
-}
-.home-link:link:not(:hover) {
-	text-decoration: none;
+	color: #000 !important;
+	text-decoration: none !important;
 }
 
 /* Nav */
@@ -349,6 +348,34 @@ header {
 .model-viewer {
 	height: 450px;
 	width: auto;
+}
+
+.center-image {
+	text-align: center;
+	padding: 2.5em 0;
+  }
+.center-image img {
+	display: inline-block;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.footer-left {
+	flex: 1 0 auto;
+}
+.footer-right {
+	flex: 1 0 auto;
+	text-align: right;
+}
+@media (max-width: 600px) {
+	.footer-left,
+	.footer-right {
+		flex: 1 0 100%;
+		text-align: left;
+	}
 }</style>
 		
 		
@@ -376,22 +403,10 @@ header {
 <ul>
 
 	
-	<li><a href="/games-we-have-played/tags/another-tag/" class="post-tag">another tag</a></li>
-
-	
 	<li><a href="/games-we-have-played/tags/board-games/" class="post-tag">board games</a></li>
 
 	
-	<li><a href="/games-we-have-played/tags/number-2/" class="post-tag">number 2</a></li>
-
-	
 	<li><a href="/games-we-have-played/tags/party-games/" class="post-tag">party games</a></li>
-
-	
-	<li><a href="/games-we-have-played/tags/posts-with-two-tags/" class="post-tag">posts with two tags</a></li>
-
-	
-	<li><a href="/games-we-have-played/tags/second-tag/" class="post-tag">second tag</a></li>
 
 	
 	<li><a href="/games-we-have-played/tags/thrift-store-find/" class="post-tag">thrift store find</a></li>
@@ -402,11 +417,12 @@ header {
 			</heading-anchors>
 		</main>
 
-		<footer>
-			<p>© Justin Egan.  All rights reserved.</p>
+		<footer class="footer">
+			<p class="footer-left">© Justin Egan.  All rights reserved.</p>
+			<p class="footer-right"><a href="/games-we-have-played/feed/feed.xml">RSS</a></p>
 		</footer>
 
-		<!-- This page `/tags/` was built on 2025-04-25T18:48:53.427Z -->
+		<!-- This page `/tags/` was built on 2025-04-28T14:33:55.872Z -->
 		<script type="module" src="/games-we-have-played/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
