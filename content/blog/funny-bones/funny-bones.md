@@ -28,8 +28,13 @@ We've generally house ruled that there is a 3rd person that is handing the next 
     <img src="./funny-bones.gif" class="gif-viewer" alt="A gif showing Funny Bones with the pieces in play">
 </div>
 
-__Would I buy again?__
-100%.  It's provided a few hours of entertainment, and for the purchase price of a few dollars (I don't recall the exact price, as I got this several years ago at a thrift store, but definitely under $5), it is an easy win.
+
+### The Final Say
+The final say will be one of the following: It's a Keeper, Just Okay, Not Worth Picking Up
+
+Would I buy again?  100%.  It has provided a few hours of entertainment, and for the purchase price of a few dollars, it is an easy win.
+
+Funny Bones gets: __It's a Keeper__
 
 Enjoy!
 
