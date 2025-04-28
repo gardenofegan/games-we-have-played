@@ -3,19 +3,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Games We Have Played</title>
   <subtitle>A blog about games we have played, with simple reviews and gifs to help illustrate the experience.</subtitle>
-  <link href="https://gameswehaveplayed.com/games-we-have-played/feed/feed.xml" rel="self" />
-  <link href="https://gameswehaveplayed.com/games-we-have-played/" />
+  <link href="https://gameswehaveplayed.com/feed/feed.xml" rel="self" />
+  <link href="https://gameswehaveplayed.com/" />
   <updated>2025-04-28T00:00:00Z</updated>
-  <id>https://gameswehaveplayed.com/games-we-have-played/</id>
+  <id>https://gameswehaveplayed.com/</id>
   <author>
     <name>Justin Egan</name>
     <email>justin@gameswehaveplayed.com</email>
   </author>
   <entry>
     <title>Funny Bones</title>
-    <link href="https://gameswehaveplayed.com/games-we-have-played/blog/funny-bones/" />
+    <link href="https://gameswehaveplayed.com/blog/funny-bones/" />
     <updated>2025-04-28T00:00:00Z</updated>
-    <id>https://gameswehaveplayed.com/games-we-have-played/blog/funny-bones/</id>
+    <id>https://gameswehaveplayed.com/blog/funny-bones/</id>
     <content type="html">&lt;p&gt;Without further ado, our first game is &lt;strong&gt;Funny Bones&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;model-viewer class=&quot;model-viewer&quot; src=&quot;./Funny-Bones.glb&quot; ios-src=&quot;./Funny-Bones.usdz&quot; poster=&quot;./funny-bones.png&quot; alt=&quot;Funny Bones 3D Model scan&quot; camera-controls=&quot;&quot; ar=&quot;&quot; loading=&quot;eager&quot;&gt;&lt;/model-viewer&gt;&lt;/p&gt;
 &lt;p&gt;As you can see the box is in decent condition.  It has some torn edges, random tape, and a few rips here and there.  Really, not too bad for a game from 1968.&lt;/p&gt;
@@ -26,7 +26,7 @@ Yes, yes it is.&lt;/p&gt;
 &lt;p&gt;We&#39;ve played this with kids and at family functions with a mixed group of kids and adults.  Clearly by the artwork the expectation is that you&#39;d play this game at a 60s adult dinner party.  While I think that could be fun, it may be a bit awkward to play this with any that isn&#39;t your direct spouse / significant other.  But hey, maybe playing this game would be a great way to meet said spouse or significant other if you are single?&lt;/p&gt;
 &lt;p&gt;We&#39;ve generally house ruled that there is a 3rd person that is handing the next card off the deck to the 2 players playing.  This allows them to focus a bit more of keeping cards held between all the random connected body parts, giving them a chance to score a bit higher than if they had to move and bend to pickup another card from the deck themselves.&lt;/p&gt;
 &lt;div class=&quot;center-image&quot;&gt;
-    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gameswehaveplayed.com/games-we-have-played/blog/funny-bones/bniXpfM9Cj-282.webp 282w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gameswehaveplayed.com/games-we-have-played/blog/funny-bones/bniXpfM9Cj-282.gif&quot; class=&quot;gif-viewer&quot; alt=&quot;A gif showing Funny Bones with the pieces in play&quot; width=&quot;282&quot; height=&quot;500&quot;&gt;&lt;/picture&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gameswehaveplayed.com/blog/funny-bones/bniXpfM9Cj-282.webp 282w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gameswehaveplayed.com/blog/funny-bones/bniXpfM9Cj-282.gif&quot; class=&quot;gif-viewer&quot; alt=&quot;A gif showing Funny Bones with the pieces in play&quot; width=&quot;282&quot; height=&quot;500&quot;&gt;&lt;/picture&gt;
 &lt;/div&gt;
 &lt;h3 id=&quot;the-final-say&quot;&gt;The Final Say&lt;/h3&gt;
 &lt;p&gt;The final say will be one of the following: It&#39;s a Keeper, Just Okay, Not Worth Picking Up&lt;/p&gt;
@@ -39,9 +39,9 @@ Yes, yes it is.&lt;/p&gt;
   </entry>
   <entry>
     <title>Introduction</title>
-    <link href="https://gameswehaveplayed.com/games-we-have-played/blog/introduction/" />
+    <link href="https://gameswehaveplayed.com/blog/introduction/" />
     <updated>2025-04-27T00:00:00Z</updated>
-    <id>https://gameswehaveplayed.com/games-we-have-played/blog/introduction/</id>
+    <id>https://gameswehaveplayed.com/blog/introduction/</id>
     <content type="html">&lt;p&gt;Howdy folks, my name is Justin and I like board games.  Buying board games at thrift stores, is a 2-for-1 hobby of mine.  Playing the board games is great and all, but I just might like the thrill of the hunt of buying another board game from a thrift store for a deal even better.  I have too many games and not enough plays.  So what shall we do?&lt;/p&gt;
 &lt;p&gt;This blog is a personal effort to start playing more of those board games regularly, and sharing my thoughts as well.  Why start a written blog?  Well, I listen to the occasional podcast about board games, but I very much struggle watching video reviews.  Too long, didn&#39;t watch I guess.  I do, however, like the text reviews on BGG, so this will be in that vein.  I&#39;ll likely also post these reviews there as well.&lt;/p&gt;
 &lt;p&gt;Adding to the plain text, as I realize that will be a hair boring, is 3D scanning via Apple&#39;s Reality Composer.  It seems that can be a fun way to show the exact game I have, and it&#39;s state as bought, as some of the boxes can be beat up, torn, etc as you might imagine from the thrift store.&lt;/p&gt;
@@ -49,7 +49,7 @@ Yes, yes it is.&lt;/p&gt;
 &lt;p&gt;Recap: Board games, thrift store, 3D scans, and animated gifs.  That is what you can expect, I hope you enjoy!&lt;/p&gt;
 &lt;p&gt;Without further ado, welcome to &lt;strong&gt;Games We Have Played&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&quot;center-image&quot;&gt;
-    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gameswehaveplayed.com/games-we-have-played/blog/introduction/RJPYZV9eX8-282.webp 282w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gameswehaveplayed.com/games-we-have-played/blog/introduction/RJPYZV9eX8-282.gif&quot; class=&quot;gif-viewer&quot; alt=&quot;A gif showing my board game room&quot; width=&quot;282&quot; height=&quot;500&quot;&gt;&lt;/picture&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gameswehaveplayed.com/blog/introduction/RJPYZV9eX8-282.webp 282w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gameswehaveplayed.com/blog/introduction/RJPYZV9eX8-282.gif&quot; class=&quot;gif-viewer&quot; alt=&quot;A gif showing my board game room&quot; width=&quot;282&quot; height=&quot;500&quot;&gt;&lt;/picture&gt;
 &lt;/div&gt;
 &lt;p&gt;Here is the basement game room collection in all it&#39;s glory.  This is about the most organized it has been in quite a while.  Enjoy the (mostly) lack of games on the floor and generally shelved.&lt;/p&gt;
 &lt;p&gt;Follow along as I share my adventures on getting games to the table, scanning them in 3D, animating some gifs and writing some light reviews.&lt;/p&gt;
