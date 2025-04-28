@@ -34,7 +34,13 @@ The final say will be one of the following: It's a Keeper, Just Okay, Not Worth 
 
 Would I buy again?  100%.  It has provided a few hours of entertainment, and for the purchase price of a few dollars, it is an easy win.
 
-Funny Bones gets: __It's a Keeper__
+- __Ease of Setup__: Easy
+- __Family Friendly__: Yes, works for all ages
+- __Replayability__: Yes, a quick hit party game you could play anytime
+
+And the final say is:
+- __Final Say__: It's a Keeper
+
 
 Enjoy!
 
